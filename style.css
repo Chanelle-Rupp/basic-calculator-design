@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    background-image: linear-gradient(-90deg, #ff00ae, #9198e5);
+}
+
+.panelBody {
+    padding: 15px;
+    background-color: #343434;
+    border-radius: 3px;
+    width: 245.5px !important;
+    box-shadow: 2px 4px 6px #151515;
+    margin-top: 90px;
+}
+
+
+/*Buttons*/
+button {
+    border-radius: 0 !important;
+    width: 50px;
+    height: 60px;
+    text-decoration: none;
+}
+
+/*Top*/
+.btn-top {
+    background-color: #6f6f6f;
+    border: none;
+    color: #fff;
+}
+
+.btn-top:hover {
+    background-color: #000;
+}
+
+/*Left*/
+.btn-left {
+    background-color: #fff;
+    color: #000;
+    border: none;
+}
+
+.btn-left:hover {
+    background-color: #000;
+}
+
+/*Center*/
+.btn-center {
+    background-color: #ddd;
+    color: #000;
+    border: none;
+}
+
+.btn-center:hover {
+    background-color: #000;
+}
+
+/*Right*/
+.btn-right {
+    background-color: #bbb;
+    color: #000;
+    border: none;
+}
+
+.btn-right:hover {
+    background-color: #000;
+}
+
+/*Side*/
+.btn-side {
+    background-color: #6f6f6f;
+    border: none;
+}
+
+.btn-side:hover {
+    background-color: #000;
+}
+
+.btn-info {
+    background-color: #ff0090;
+}
+
+.btn-info:hover {
+    background-color: #ac0061;
+}
+
+.rowPad {
+    padding: 1px;
+    border-radius: none;
+}
+.inputCss{
+    background-image: linear-gradient(-90deg, #999, #676767);
+    font-size: 12pt !important;
+    text-align: right !important;
+    color: #000;
+    width: 100%;
+    border: none;
+    border-radius: 2px 2px 0px 0px;
+}
+.resultCss{
+    background-image: linear-gradient(-90deg, #999, #676767);
+    font-size: 20pt !important;
+    text-align: right !important;
+    color: #000;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 0px 0px 2px 2px;
+}

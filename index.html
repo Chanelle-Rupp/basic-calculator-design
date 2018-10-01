@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container panelBody">
+            <table>
+                    <div class=”calculator”>
+                            <input type="text" id="input-window" class="resultCss">
+                            <div class=”calculator__keys”> … </div>
+                          </div>
+            <br><br>
+            <div class="calculator__keys">
+            <div class="rowPad cal-keys">
+                <button class="btn btn-top num-bg" id="clearall" data-action="clear">C</button>
+                <button class="btn btn-top num-bg btn-primary" id="plusminus" data-action="" value="±">+/-</button>
+                <button class="btn btn-top num-bg btn-primary" id="percent" data-action="percent" value ="%">%</button>
+                <button class="btn btn-top num-bg btn-primary operator" id="divide" data-action="divide" value ="/">÷</button>
+            </div>
+            <div class="rowPad cal-keys">
+                <button class="btn btn-left num-bg btn-primary" id="seven" value ="7">7</button>
+                <button class="btn btn-center num-bg btn-primary" id="eight" value="8">8</button>
+                <button class="btn btn-right num-bg btn-primary" id="nine" value ="9">9</button>
+                <button class="btn btn-side num-bg btn-primary operator" id="times" data-action="add" value ="*">x</button>
+            </div>
+            <div class="rowPad cal-keys">
+                <button class="btn btn-left num-bg btn-primary" id="four" value ="4">4</button>
+                <button class="btn btn-center num-bg btn-primary" id="five" value ="5">5</button>
+                <button class="btn btn-right num-bg btn-primary" id="six" value ="6">6</button>
+                <button class="btn btn-side num-bg btn-primary operator" id="minus" data-action="subtract "value ="-">-</button>
+            </div>
+            <div class="rowPad cal-keys">
+                <button class="btn btn-left num-bg btn-primary" id="one" value ="1">1</button>
+                <button class="btn btn-center num-bg btn-primary" id="two" value ="2">2</button>
+                <button class="btn btn-right num-bg btn-primary" id="three" value ="3">3</button>
+                <button class="btn btn-side num-bg btn-primary operator" id="plus" data-action="add" value ="+">+</button>
+            </div>
+            <div class="rowPad cal-keys">
+                <button class="btn btn-left num-bg btn-primary" id="zero" value ="0">0</button>
+                <button class="btn btn-center num-bg btn-primary" id="doubleZero" value ="00">00</button>
+                <button class="btn btn-right num-bg btn-primary" id="point" data-action="decimal" value =",">.</button>
+                <button class="btn btn-side num-bg btn-info" id="equals" data-action="calculate" value ="=">=</button>
+            </div>
+            </table>
+            </div>
+
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
